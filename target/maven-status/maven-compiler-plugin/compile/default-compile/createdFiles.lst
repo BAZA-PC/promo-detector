@@ -1,0 +1,13 @@
+com\example\promodetector\util\JsonLoader.class
+com\example\promodetector\model\ActualWithPriceType.class
+com\example\promodetector\Main$1.class
+com\example\promodetector\controller\PromoController.class
+com\example\promodetector\model\Price.class
+com\example\promodetector\model\Product.class
+com\example\promodetector\model\Customer.class
+com\example\promodetector\Main$2.class
+com\example\promodetector\model\Actual.class
+com\example\promodetector\service\PromoDetectorService.class
+com\example\promodetector\util\SafeNumberDeserializer.class
+com\example\promodetector\Main.class
+com\example\promodetector\Main$3.class
