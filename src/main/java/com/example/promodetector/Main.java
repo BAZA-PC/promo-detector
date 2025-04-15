@@ -19,7 +19,7 @@ public class Main {
 
     @Bean
     CommandLineRunner init(PromoDetectorService service) {
-        return args cd "C:\Users\BAZA PC\Desktop\testR"-> {
+        return args cd -> {
             List<Actual> actuals = JsonLoader.loadList("/json/Actuals.json", new TypeReference<>() {});
             List<Customer> customers = JsonLoader.loadList("/json/Customers.json", new TypeReference<>() {});
             List<Price> prices = JsonLoader.loadList("/json/Price.json", new TypeReference<>() {});
